@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="Freelance Writer, Web Content">
+    <title>Texas</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Amita' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
+    <style>
+        body {
+            text-align: center;
+        }
+        
+        .main_banner {
+            background: url(media/header_image.jpg);
+            background-size: cover;
+            text-align: left;
+            height: 70vh;
+            color: #fff;
+            position: relative;
+        }
+        
+        .banner_text {
+            position: absolute;
+            top: 65%;
+            left: 55%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+            text-shadow: 1px 3px 2px #000;
+        }
+        
+        .banner_text #font1 {
+            font-size: 24px;
+            font-weight: 700;
+            line-break: 26px;
+        }
+        
+        .title {
+            font-size: 40px;
+            font-weight: 600;
+        }
+        
+        .main {
+            margin-bottom: 10px;
+        }
+        
+        .banner_text .text {
+            font-size: 22px;
+        }
+        
+        .main img {
+            width: 100%;
+        }
+        
+        .main_text {
+            font-size: 20px;
+            font-weight: 600;
+        }
+        
+        .popup_box {
+            background-color: rgb(65, 154, 242);
+            padding: 10px;
+            min-height: 475px;
+            color: #fff;
+        }
+        
+        .pop_title {
+            font-size: 22px;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-family: 'Acme';
+            font-size: 22px;
+        }
+        
+        .pop_title1 {
+            padding-top: 30px;
+            font-size: 20px;
+            font-weight: 600;
+        }
+        
+        .sound img {
+            width: 50px;
+        }
+        
+        .video img {
+            width: 50px;
+        }
+        
+        .tag img {
+            width: 30px;
+        }
+        
+        .section3 {
+            padding-top: 10px;
+            padding-bottom: 30px;
+        }
+        
+        .main_text a {
+            color: #b4e0c0;
+        }
+        
+        .box_5 {
+            background-color: rgb(62, 142, 222);
+            height: 150px;
+            margin-bottom: 20px;
+            color: #fff;
+            text-align: left;
+        }
+        
+        .six_box1 {
+            width: 100%;
+            background-color: rgb(65, 154, 242);
+            color: #fff;
+            font-size: 35px;
+            font-weight: 700;
+            padding: 20px 0;
+            text-transform: uppercase;
+        }
+        
+        .six_box2 {
+            background-color: rgb(60, 133, 207);
+            padding: 20px;
+            width: fit-content;
+            font-size: 18px;
+            font-weight: 600;
+            color: #fff;
+        }
+        
+        .footer {
+            padding: 10px 0;
+            background-color: rgb(65, 154, 242);
+            font-size: 16px;
+            font-weight: 600;
+            color: #fff;
+        }
+        
+        .footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        .footer a img {
+            width: 40px;
+        }
+        
+        .modal_flex {
+            display: flex;
+            text-align: left;
+        }
+        
+        .modal_left {
+            width: 85px;
+        }
+        
+        .modal_link,
+        .modal_link:hover {
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        .media_btn {
+            background-color: #ffffff;
+            margin-bottom: 10px;
+            color: rgb(0, 18, 121);
+            box-shadow: 4px 6px 6px;
+            font-weight: 600;
+        }
+        
+        .modal_right {
+            padding-left: 30px;
+        }
+        
+        @media(max-width: 768px) {
+            .banner_text {
+                position: absolute;
+                top: 50%;
+                left: 51%;
+                transform: translate(-50%, -50%);
+                width: 100%;
+            }
+            .banner_text p {
+                font-size: 24px;
+                font-weight: 700;
+            }
+            .title {
+                font-size: 30px;
+                font-weight: 600;
+            }
+            .banner_text .text {
+                font-size: 16px;
+            }
+            .btn {
+                font-size: 13px;
+            }
+            .box_5 {
+                background-color: rgb(62, 142, 222);
+                min-height: 100px;
+                margin-bottom: 20px;
+                color: #fff;
+                text-align: left;
+                padding: 20px !important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <section class="main_banner">
+            <div class="banner_text">
+                <div id="font1">
+                    You need words.
+                </div>
+                <div id="font1">
+                    I write words.
+                </div>
+                <div class="title" id="font2">
+                    Texas Freelancer Writer
+                </div>
+
+                <div class="text py-3" id="font3">
+                    Radio Commerical Writing, Casting, and Producing <br> Print Ads, Web Content, Blog Content, Multimedia Scripts, Technical Writing, Documentation <br> Advertising Copy, Slogans, Headlines, and Tag Lines
+                </div>
+            </div>
+        </section>
+        <div class="row">
+            <div class="col-md-4 px-3 py-3">
+                <div class="popup_box">
+                    <div class="pop_title" id="font12">
+                        Radio Commerical
+                    </div>
+                    <div class="pop_title1">
+                        Bassett Furniture
+                    </div>
+                    <div>
+                        <button type="button" class="btn media_btn" data-toggle="modal" data-target="#sound1"> <span
+                                class="sound"><img src="media/sound.svg" alt=""></span> I Must Be Dreaming </button>
+                    </div>
+
+                    <div>
+                        <button type="button" class="btn media_btn" data-toggle="modal" data-target="#sound2"> <span
+                                class="sound"><img src="media/sound.svg" alt=""></span> Extravaganza Of Choices
+                        </button>
+                    </div>
+
+                    <div class="pop_title1">
+                        Toyota Of Irving
+                    </div>
+                    <div>
+                        <button type="button" class="btn media_btn" data-toggle="modal" data-target="#sound3"> <span
+                                class="sound"><img src="media/sound.svg" alt=""></span> Drive In, Cruise Out </button>
+                    </div>
+
+                    <div>
+                        <button type="button" class="btn media_btn" data-toggle="modal" data-target="#sound4"> <span
+                                class="sound"><img src="media/sound.svg" alt=""></span> Christmas Caroled </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 px-3 py-3">
+                <div class="popup_box">
+                    <div class="pop_title" id="font12">
+                        movie trailers & tv sports
+                    </div>
+
+                    <div class="pop_title1">
+                        20th Century Fox
+                    </div>
+                    <div>
+                        <button type="button" class="btn media_btn" data-toggle="modal" data-target="#video1"> <span
+                                class="video"><img src="media/film.svg" alt=""></span> The Thin Red Line </button>
+                    </div>
+
+                    <div class="pop_title1">
+                        Paramount Pictures
+                    </div>
+                    <div>
+                        <button type="button" class="btn media_btn" data-toggle="modal" data-target="#video2"> <span
+                                class="video"><img src="media/film.svg" alt=""></span> Star Trek: Insurrenction
+                        </button>
+                    </div>
+
+                    <div class="pop_title1">
+                        Universal Pictures
+                    </div>
+                    <div>
+                        <button type="button" class="btn media_btn" data-toggle="modal" data-target="#video3"> <span
+                                class="video"><img src="media/film.svg" alt=""></span> End of Days </button>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-4 px-3 py-3">
+                <div class="popup_box">
+                    <div class="pop_title" id="font12">
+                        copy and tag lines
+                    </div>
+
+                    <div class="pop_title1">
+                        20th Century Fox
+                    </div>
+                    <div>
+                        <button type="button" class="btn media_btn" data-toggle="modal" data-target="#tag1"> <span
+                                class="tag"><img src="media/full_page.svg" alt=""></span> <i> Chasing Papi </i>
+                            One-Sheet Tag Lines</button>
+                    </div>
+                    <div>
+                        <button type="button" class="btn media_btn" data-toggle="modal" data-target="#tag2"> <span
+                                class="tag"><img src="media/full_page.svg" alt=""></span><i> Chasing Papi </i> Trailer
+                            Script</button>
+                    </div>
+
+                    <div class="pop_title1">
+                        Boulder Beverage Company
+                    </div>
+                    <div>
+                        <button type="button" class="btn media_btn" data-toggle="modal" data-target="#tag3"> <span
+                                class="tag"><img src="media/full_page.svg" alt=""></span>Product Copy</button>
+                    </div>
+
+                    <div class="pop_title1">
+                        Soda Company
+                    </div>
+                    <div>
+                        <button type="button" class="btn media_btn" data-toggle="modal" data-target="#tag4"><span
+                                class="tag"><img src="media/full_page.svg" alt=""></span> Concept</button>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="section3 ">
+            <div class="main_text" id="font4">
+                Key Art Award Winner
+            </div>
+            <div class="main_text" id="font4">
+                clio Nominted
+            </div>
+            <div class="main_text" id="font4">
+                And here is my IMBD <a href="https://www.imdb.com/name/nm1055340" target="_blank">link</a>
+            </div>
+        </div>
+
+        <div class="section4">
+            <div class="row justfy-content-center">
+                <div class="col-md-1"></div>
+                <div class="col-md-5">
+                    <div class="box_5 py-4 px-5">
+                        <div id="font5">
+                            You have something to sell. Or say. You want your customer to <i>buy</i> something,
+                            <i>want</i> something, <i>know</i> something, or <i>feel</i> something.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+
+                    <div class="box_5 py-4 px-5">
+                        <div id="font5">
+                            I'll give you fast words. With hard sounds. I'll contol the speed. The pace. The rhythm.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+                    <div class="box_5 px-5 py-4">
+                        <div class=" " id="font5">
+                            Or I'll give you longer setences with softer syllables. Your customers can ease into the a more gentle communication. and immers themselves into language we'll use to take them where you want them to go.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3"></div>
+
+                <div class="col-md-12">
+                    <div class="box_5 py-5 px-5">
+                        <div class="" id="font5">
+                            I am expecially capable at "fresh eyes". If you have a project that is wallowing, I'm very good at stepping in and seeing the possibilites. This way you don't lose months of work, and I can help you get back on track with a fresh perspective
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section5">
+            <p class="main_text" id="font6">
+                You need words.
+            </p>
+            <p class="main_text" id="font6">
+                I write words.
+            </p>
+            <p class="main_text" id="font7">
+                call me write now
+                <br> 512.689.0582
+            </p>
+            <div class="mt-3 mb-3" id="font8">
+                Carey@TexasFreelanceWrite.net
+            </div>
+        </div>
+
+        <div class="section6">
+            <div class="six_box1 mb-3" id="font9">
+                Clients
+            </div>
+            <div class="mx-auto six_box2 mb-5" id="font10">
+                Bassett Furniture Direct <br> Boulder Beverage Company <br> Buena vista International <br> Cimarron Group <br> Citicorp <br> Disney <br> Hollywood Mogul Company <br> Hollywood Pictures Film Company <br> Kemper Financial Services <br> Match.com
+                <br> Paramount Pictures <br> Toybox Entertainment <br> Toyota <br> Travelling Chef <br> Twentieth Century Fox <br> UCLA <br>Universal Pictures
+            </div>
+        </div>
+
+        <div class="footer" id="font11">
+            Copyright &copy; 2019 TexasFreelanceWrite.net <br> All Rights Reserved <br> Work samples provided with permission of the client. <br>
+            <!-- <a href="https://dryicons.com/" target="_blank"> <img src="media/telephone.svg" alt=""></a> -->
+            Icons courtesy of <a href="https://dryicons.com/" target="_blank">DryIcons.com</a>
+        </div>
+
+
+        <div class="modal fade" id="sound1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <audio controls id="aud1">
+                            <source src="media/bass01.mp3" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary aud1" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="sound2">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <audio controls id="aud2">
+                            <source src="media/bass02.mp3" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary aud2" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="sound3">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <audio controls id="aud3">
+                            <source src="media/Cruise1.mp3" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary aud3" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="sound4">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <audio controls id="aud4">
+                            <source src="media/Xmas.mp3" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary aud4" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="video1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <video width="320" height="240" controls id="vid1">
+                            <source src="media/trl.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary vid1" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="modal fade" id="video2">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <video width="320" height="240" controls id="vid2">
+                            <source src="media/st.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary vid2" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="modal fade" id="video3">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <video width="320" height="240" controls id="vid3">
+                            <source src="media/eod.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary vid3" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="tag1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <div>
+                            CLIENT: Cimarron Group
+                        </div>
+                        <div>
+                            Movie Poster (One Sheet) Tag Lines, <i> Chasing Papi</i>
+                        </div>
+                        <div>
+                            The poster shows the male character surrounded by the three beautiful women he is dating. Three tag lines were submitted.
+                        </div>
+                        <br>
+                        <div class="text-center">
+                            <strong>
+                                <i>Chasing Papi</i>
+                            </strong>
+                            <br> What's Beautiful And Angry And Has Six Legs?
+                        </div>
+
+                        <div class="mt-5 mb-3 text-center">
+                            --------------
+                        </div>
+
+                        <br>
+                        <div class="text-center">
+                            <strong>
+                                <i>Chasing Papi</i>
+                            </strong>
+                            <br> He's Going Down For The Third Time
+                        </div>
+
+                        <div class="mt-5 mb-3 text-center">
+                            --------------
+                        </div>
+
+                        <br>
+                        <div class="text-center">
+                            <strong>
+                                <i>Chasing Papi</i>
+                            </strong>
+                            <br> The Story Of A Man And A Woman.
+                            <br> And Two More Women.
+                        </div>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="tag2">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <div>
+                            CLIENT: Cimarron Group
+                        </div>
+                        <div>
+                            Movie Trailer Script - No Paper Cut
+                        </div>
+                        <div>
+                            Movie: <strong> <i> Chasing Papi</i></strong>
+                        </div>
+                        <br>
+                        <div class="modal_flex">
+                            <div class="modal_left">
+                                NARR:
+                            </div>
+                            <div class="modal_right">
+                                ONE MAN
+                            </div>
+                        </div>
+
+                        <div class="modal_flex">
+                            <div class="modal_left">
+                                TITLECARD:
+                            </div>
+                            <div class="modal_right">
+                                <strong>1</strong>
+                            </div>
+                        </div>
+
+                        <div class="modal_flex">
+                            <div class="modal_left">
+                                NARR:
+                            </div>
+                            <div class="modal_right">
+                                THREE WOMEN
+                            </div>
+                        </div>
+
+                        <div class="modal_flex">
+                            <div class="modal_left">
+                                TITLECARD:
+                            </div>
+                            <div class="modal_right">
+                                <strong>13</strong>
+                            </div>
+                        </div>
+
+                        <div class="modal_flex">
+                            <div class="modal_left">
+                                NARR:
+                            </div>
+                            <div class="modal_right">
+                                AND THAT'S AN UNLUCKY NUMBER <br> TOMAS FUENTES COULD NOT MAKE A CHOICE <br> NOW THE WOMEN IN HIS LIFE <br> CHOOSE THEMSELVES <br> ONCE THE ODDS WERE THREE TO ONE <br> NOW THE ODDS ARE GETTING EVEN
+                            </div>
+                        </div>
+
+                        <div class="modal_flex">
+                            <div class="modal_left">
+                                TITLECARD:
+                            </div>
+                            <div class="modal_right">
+                                <strong> <i>
+                                        CHASING PAPI
+                                    </i></strong>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="tag3">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="text-left">
+                            <div>
+                                CLIENT: Boulder Beverage Company
+                            </div>
+                            <div>
+                                Product One-Sheet Descriptions
+                            </div>
+
+                            <div class="mt-5">
+                                <strong>Wildflower Sweet & Sour Beverage</strong><br> They say she was coming home after chasing butterflies in <br> the dancing flowers of a pristine prairie when her car broke
+                                <br> down out front of Ying Soo Take Out up where East meets <br> West on the Great Divide.
+                            </div>
+
+                            <div class="mt-5">
+                                <strong>Mountain Margarita Mix Beverage</strong><br> Now we never met Margarita, but the story goes that <br> she had a citrus farm south of the border and on a <br> ski trip to the Rockies, well, she was just overcome
+                                <br> with the possibilities and mixed herself up a mountain treat.
+                            </div>
+
+                            <div class="mt-5">
+                                <strong>Colorado Colada Beverage</strong><br> There was some old coot out on the eastern slopes of <br> the Rocky Mountains, daydreaming about palm trees and <br> sandy beaches, blending pineapples and citrus in a <br>                                tangy taste of flavors, 'stead of doing his dang chores.
+                            </div>
+
+                            <div class="mt-5">
+                                <strong>Tye Dye Mai Tai Beverage</strong><br> Seems there was this traveling hippie type in one of them <br> rainbow colored vans who took up with some suntanned Sally <br> just visiting from the islands, and well, I guess
+                                some things <br> are just meant to be, and they made magic.
+                            </div>
+
+                            <div class="mt-5">
+                                <strong>Pike's Peach Beverage</strong><br> Now the way we hear it, some old goat of a miner went up in <br> search of gold but came down with the rich, juicy taste of <br> peaches in a wonderful blend of golden fruit and
+                                Rocky Mountain <br> mining lore.
+                            </div>
+
+                            <div class="mt-5">
+                                <strong>Rocky Mountain Raz Beverage</strong><br> We had us a long tall gal that could make a saxophone weep, <br> and when she fell in love it was the jazziest, razziest blend <br> of raspberries and tangy flavors that
+                                ever rocked a mountainside.
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="modal fade" id="tag4">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+
+                        <div class="text-left">
+                            <div>
+                                An Ad Agency called me.
+                            </div>
+                            <br>
+                            <div>
+                                They had a soda company client that was introducing a new fountain drink mechanic.
+                            </div>
+                            <br>
+                            <div>
+                                The company had managed to get the fountain soda to taste just like the production plant soda.
+                            </div>
+                            <br>
+                            <div>
+                                They asked me for some ideas.
+                            </div>
+                            <br>
+                            <div>
+                                I said, "Get one of those double baby strollers. In one is the can of soda. In the other is the fountain cup with the plastic lid and straw. With the tag line: If we didn't dress them different you couldn't tell them apart."
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+
+    <script>
+        $('document').ready(function() {
+            $('.aud1').click(function() {
+                var aud1 = document.getElementById("aud1");
+                aud1.pause();
+            })
+
+            $('.aud2').click(function() {
+                var aud2 = document.getElementById("aud2");
+                aud2.pause();
+            })
+
+            $('.aud3').click(function() {
+                var aud3 = document.getElementById("aud3");
+                aud3.pause();
+            })
+
+            $('.aud4').click(function() {
+                var aud4 = document.getElementById("aud4");
+                aud4.pause();
+            })
+
+            $('.vid1').click(function() {
+                var vid1 = document.getElementById("vid1");
+                vid1.pause();
+            })
+
+            $('.vid2').click(function() {
+                var vid2 = document.getElementById("vid2");
+                vid2.pause();
+            })
+
+            $('.vid3').click(function() {
+                var vid3 = document.getElementById("vid3");
+                vid3.pause();
+            })
+        })
+    </script>
+
+</body>
+
+</html>
