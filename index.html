@@ -16,6 +16,7 @@
     <style>
         body {
             text-align: center;
+            color: #666666;
         }
         
         .main_banner {
@@ -25,6 +26,7 @@
             height: 70vh;
             color: #fff;
             position: relative;
+            background-position: center;
         }
         
         .banner_text {
@@ -58,12 +60,33 @@
         }
         
         .main_text {
-            font-size: 20px;
+            font-size: 26px;
             font-weight: 600;
+            line-height: 4rem;
         }
         
-        .popup_box {
-            background-color: rgb(65, 154, 242);
+        .popup_box1 {
+            background: url(media/radio.png);
+            background-size: cover;
+            background-position: center;
+            padding: 10px;
+            min-height: 475px;
+            color: #fff;
+        }
+        
+        .popup_box2 {
+            background: url(media/video.png);
+            background-size: cover;
+            background-position: center;
+            padding: 10px;
+            min-height: 475px;
+            color: #fff;
+        }
+        
+        .popup_box3 {
+            background: url(media/ad.png);
+            background-size: cover;
+            background-position: center;
             padding: 10px;
             min-height: 475px;
             color: #fff;
@@ -96,8 +119,10 @@
         }
         
         .section3 {
-            padding-top: 10px;
-            padding-bottom: 30px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            font-size: 26px;
+            font-weight: 600;
         }
         
         .main_text a {
@@ -113,39 +138,28 @@
         }
         
         .six_box1 {
+            padding: 50px 0 0 0;
             width: 100%;
-            background-color: rgb(65, 154, 242);
-            color: #fff;
             font-size: 35px;
-            font-weight: 700;
-            padding: 20px 0;
+            font-weight: 600;
             text-transform: uppercase;
         }
         
         .six_box2 {
-            background-color: rgb(60, 133, 207);
-            padding: 20px;
             width: fit-content;
-            font-size: 18px;
+            font-size: 20px;
             font-weight: 600;
-            color: #fff;
         }
         
         .footer {
             padding: 10px 0;
-            background-color: rgb(65, 154, 242);
             font-size: 16px;
             font-weight: 600;
-            color: #fff;
         }
         
         .footer a {
             color: #fff;
             text-decoration: none;
-        }
-        
-        .footer a img {
-            width: 40px;
         }
         
         .modal_flex {
@@ -164,19 +178,64 @@
         }
         
         .media_btn {
-            background-color: #ffffff;
             margin-bottom: 10px;
-            color: rgb(0, 18, 121);
-            box-shadow: 4px 6px 6px;
+            color: rgb(255, 255, 255);
             font-weight: 600;
+            border: solid 1px #fff;
+            border-radius: 10px;
+        }
+        
+        .media_btn:hover {
+            color: #cccccc;
         }
         
         .modal_right {
             padding-left: 30px;
         }
         
+        .section4 {
+            text-align: left;
+            font-size: 20px;
+            padding-bottom: 50px;
+        }
+        
         .section4 .row {
             width: 100%;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .box_img img {
+            width: 100%;
+        }
+        
+        .section5 {
+            background: url(media/sec5.png);
+            background-size: cover;
+            background-position: center;
+            padding: 50px;
+            color: #fff;
+        }
+        
+        .sec_ins {
+            padding: 50px;
+            font-size: 22px;
+            font-weight: 500;
+        }
+        
+        .seven_title {
+            font-size: 35px;
+            font-weight: 600;
+        }
+        
+        .seven_text a,
+        .seven_text a:hover {
+            color: #666666;
+            text-decoration: none;
+        }
+        
+        .seven_text {
+            padding-bottom: 50px;
         }
         
         @media(max-width: 768px) {
@@ -208,6 +267,29 @@
                 text-align: left;
                 padding: 20px !important;
             }
+            .sec_ins {
+                padding: 50px 0;
+                font-size: 18px;
+            }
+            .section5 {
+                padding: 50px 0;
+            }
+            .main_text {
+                font-size: 17px;
+                font-weight: 600;
+                line-height: 4rem;
+            }
+            .six_box2 {
+                font-size: 16px;
+            }
+            .section4 {
+                padding-bottom: 0;
+                font-size: 16px;
+            }
+            .six_box1,
+            .seven_title {
+                font-size: 30px;
+            }
         }
     </style>
 </head>
@@ -220,22 +302,21 @@
                     You need words.
                 </div>
                 <div id="font1">
-                    I write words.
+                    I write words
                 </div>
                 <div class="title" id="font2">
-                    Texas Freelancer Writer
+                    Texas Freelance Writer
                 </div>
-
                 <div class="text py-3" id="font3">
-                    Radio Commerical Writing, Casting, and Producing <br> Print Ads, Web Content, Blog Content, Multimedia Scripts, Technical Writing, Documentation <br> Advertising Copy, Slogans, Headlines, and Tag Lines
+                    Radio Commercial Writing, Casting, and Producing <br> Web Content, Blog Content, Page Content, Multimedia Scripts, Techical Writing, Documentation <br> Ad Copy, Slogans, Headlines, and Tag Lines
                 </div>
             </div>
         </section>
         <div class="row">
             <div class="col-md-4 px-3 py-3">
-                <div class="popup_box">
+                <div class="popup_box1">
                     <div class="pop_title" id="font12">
-                        Radio Commerical
+                        RADIO COMMERCIALS
                     </div>
                     <div class="pop_title1">
                         Bassett Furniture
@@ -266,7 +347,7 @@
                 </div>
             </div>
             <div class="col-md-4 px-3 py-3">
-                <div class="popup_box">
+                <div class="popup_box2">
                     <div class="pop_title" id="font12">
                         movie trailers & tv sports
                     </div>
@@ -299,7 +380,7 @@
                 </div>
             </div>
             <div class="col-md-4 px-3 py-3">
-                <div class="popup_box">
+                <div class="popup_box3">
                     <div class="pop_title" id="font12">
                         copy and tag lines
                     </div>
@@ -340,87 +421,81 @@
         </div>
 
         <div class="section3 ">
-            <div class="main_text" id="font4">
-                Key Art Award Winner
-            </div>
-            <div class="main_text" id="font4">
-                clio Nominted
-            </div>
-            <div class="main_text" id="font4">
-                And here is my IMBD <a href="https://www.imdb.com/name/nm1055340" target="_blank">link</a>
-            </div>
+            <i> Hollywood Reporter </i> Key Art Award Winner <br>Clio Nominated
         </div>
 
         <div class="section4">
-            <div class="row justfy-content-center">
-                <div class="col-md-1"></div>
-                <div class="col-md-5">
-                    <div class="box_5 py-4 px-5">
-                        <div id="font5">
-                            You have something to sell. Or say. You want your customer to <i>buy</i> something,
-                            <i>want</i> something, <i>know</i> something, or <i>feel</i> something.
-                        </div>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="box_img">
+                        <img src="media/box1.png" alt="">
                     </div>
+                    You have something to sell. <i> Or say. </i> You want your customer to <i> buy </i> something, want something, <i> know </i> something, or <i> feel </i> something.
                 </div>
-                <div class="col-md-5">
+                <div class="col-md-4 mb-4">
+                    <div class="box_img">
+                        <img src="media/box2.png" alt="">
+                    </div>
+                    I'll give you fast words. With hard sounds. I'll contol the speed. The pace. The rhythm.
 
-                    <div class="box_5 py-4 px-5">
-                        <div id="font5">
-                            I'll give you fast words. With hard sounds. I'll contol the speed. The pace. The rhythm.
-                        </div>
-                    </div>
                 </div>
-                <div class="col-md-1"></div>
-                <div class="col-md-3"></div>
-                <div class="col-md-6">
-                    <div class="box_5 px-5 py-4">
-                        <div class=" " id="font5">
-                            Or I'll give you longer setences with softer syllables. Your customers can ease into the a more gentle communication. and immers themselves into language we'll use to take them where you want them to go.
-                        </div>
+                <div class="col-md-4 mb-4">
+                    <div class="box_img">
+                        <img src="media/box3.png" alt="">
                     </div>
-                </div>
-                <div class="col-md-3"></div>
+                    Or I'll give you longer setences with softer syllables. Your customers can ease into the a more gentle communication. and immers themselves into language we'll use to take them where you want them to go.
 
-                <div class="col-md-12">
-                    <div class="box_5 py-5 px-5">
-                        <div class="" id="font5">
-                            I am expecially capable at "fresh eyes". If you have a project that is wallowing, I'm very good at stepping in and seeing the possibilites. This way you don't lose months of work, and I can help you get back on track with a fresh perspective
-                        </div>
-                    </div>
                 </div>
             </div>
+        </div>
+        <div class="sec_ins">
+            I am especially good at "fresh eyes." <br> If you have a project that is wallowing, I'm very good at stepping in and seeing the possiblities. <br> You won't lose weeks of work, and I can get you back on track with a fresh perspective.
         </div>
 
         <div class="section5">
             <p class="main_text" id="font6">
-                You need words.
+                You need words. I write words.
             </p>
-            <p class="main_text" id="font6">
-                I write words.
-            </p>
+
             <p class="main_text" id="font7">
-                call me write now
-                <br> 512.689.0582
+                512.689.0582
             </p>
-            <div class="mt-3 mb-3" id="font8">
-                Carey@TexasFreelanceWrite.net
+            <div class="main_text" id="font8">
+                writer@texasfreelancewrite.net
             </div>
         </div>
 
         <div class="section6">
-            <div class="six_box1 mb-3" id="font9">
+            <div class="six_box1" id="font9">
                 Clients
             </div>
             <div class="mx-auto six_box2 mb-5" id="font10">
-                Bassett Furniture Direct <br> Boulder Beverage Company <br> Buena vista International <br> Cimarron Group <br> Citicorp <br> Disney <br> Hollywood Mogul Company <br> Hollywood Pictures Film Company <br> Kemper Financial Services <br> Match.com
-                <br> Paramount Pictures <br> Toybox Entertainment <br> Toyota <br> Travelling Chef <br> Twentieth Century Fox <br> UCLA <br>Universal Pictures
+                Bassett Furniture Direct <br> Boulder Beverage Company <br> Buena Vista International <br> Cimarron Group <br> Citicorp <br> Disney <br> Hollywood Pictures Film Company <br> Kemper Financial Services <br> Match.com <br> Paramount Pictures
+                <br> Toybox Entertainment <br> Toyota Of Irving (TX) <br> Traveling Chef <br> Twentieth Century Fox <br> UCLA <br> Universal Pictures
+            </div>
+        </div>
+        <div class="section7">
+            <div class="seven_title">
+                Art Credits
+            </div>
+            <div class="seven_text">
+                Main Image by
+                <A HREF="www.stockphoto.com" target="_blank"> StockPhoto.com </A> <br> Sample Box Image 1
+                <A HREF="https://www.pexels.com/photo/photo-of-woman-leaning-on-vintage-radio-2800565/" target="_blank">Photograph by Renato Abati from Pexels </A> <br> Sample Box Image 2
+                <A HREF="https://www.pexels.com/photo/man-holding-clapper-board-1117132/" target="_blank">Photograph by Martin Lopez from Pexels </A> <br> Sample Box Image 3
+                <A HREF="https://www.pexels.com/photo/girl-reading-a-newspaper-6214/" target="_blank">Photo by Kaboompics.com from Pexels </A> <br> Box Image 1
+                <A HREF="https://www.pexels.com/photo/venus-matte-liquid-lipstick-2633987/" target="_blank">Photograph by Venus HD Make-Up & Perfume from Pexels </A> <br> Box Image 2
+                <A HREF="https://www.pexels.com/photo/auto-automobile-automotive-blur-451590/" target="_blank">Photograph by JESHOOTS.com from Pexels </A> <br> Box Image 3
+                <A HREF="https://www.pexels.com/photo/hot-air-balloons-1685016/" target="_blank">Photograph by Michel Berube from Pexels </A> <br> Box Image 4
+                <A HREF="https://www.pexels.com/photo/apple-blank-business-computer-442574/" target="_blank">Photograph by JESHOOTS.com from Pexels </A> <br> Radio Icon by <a href="https://dryicons.com/icon/radio-4444" target="_blank">Dryicons </a> <br> Film Strip Icon by <a href="https://dryicons.com/icon/film-1672" target="_blank">Dryicons </a> <br> Page Icon by <a href="https://dryicons.com/icon/full-page-1475"
+                    target="_blank">Dryicons </a>
             </div>
         </div>
 
         <div class="footer" id="font11">
-            Copyright &copy; 2019 TexasFreelanceWrite.net <br> All Rights Reserved <br> Work samples provided with permission of the client. <br>
+            Copyright &copy; 2019 TexasFreelanceWriter.net <br> All Rights Reserved <br> Work samples used with permission of the client. <br>
             <!-- <a href="https://dryicons.com/" target="_blank"> <img src="media/telephone.svg" alt=""></a> -->
-            Icons courtesy of <a href="https://dryicons.com/" target="_blank">DryIcons.com</a>
+            <!-- Icons courtesy of <a href="https://dryicons.com/" target="_blank">DryIcons.com</a> -->
         </div>
 
 
@@ -566,12 +641,12 @@
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
                     </div>
-                    <div class="modal-body">
+                    <div class="modal-body text-left">
                         <div>
                             CLIENT: Cimarron Group
                         </div>
                         <div>
-                            Movie Poster (One Sheet) Tag Lines, <i> Chasing Papi</i>
+                            Movie Poster (One Sheet) Tag Lines, <i> <strong> Chasing Papi </strong> </i>
                         </div>
                         <div>
                             The poster shows the male character surrounded by the three beautiful women he is dating. Three tag lines were submitted.
@@ -623,7 +698,7 @@
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
                     </div>
-                    <div class="modal-body">
+                    <div class="modal-body text-left">
                         <div>
                             CLIENT: Cimarron Group
                         </div>
